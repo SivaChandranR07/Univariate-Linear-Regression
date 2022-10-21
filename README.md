@@ -20,9 +20,11 @@ Developed by: Siva Chandran R
 RegisterNumber: 22005531
 import numpy as np
 X = np.array(eval(input()))
+
 Y = np.array(eval(input()))
 
 X_mean=np.mean(X)
+
 Y_mean=np.mean(Y)
 
 numerator=0
